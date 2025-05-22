@@ -1,0 +1,13 @@
+{
+    "entryPoints": ["./bee-js/src/index.ts"],
+    "tsconfig": "./bee-js/tsconfig.json",
+    "out": "./bee-js-docs/docs/api",
+    "plugin": ["typedoc-plugin-markdown"],
+    "excludePrivate": true,
+    "excludeInternal": true,
+    "excludeExternals": true,
+    "readme": "none",
+    "categorizeByGroup": false,
+    
+  }
+  
